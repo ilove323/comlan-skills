@@ -1,0 +1,7 @@
+{
+  "id": "pdf-viewer",
+  "name": "PDF 工具",
+  "version": "1.2.0",
+  "description": "交互式PDF查看、注释、表单填写和签名。",
+  "skills": ["skills", "commands"]
+}

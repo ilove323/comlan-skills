@@ -1,0 +1,7 @@
+{
+  "id": "engineering",
+  "name": "工程",
+  "version": "1.2.0",
+  "description": "简化工程工作流——日会、代码审查、架构决策、故障响应和技术文档。",
+  "skills": ["skills"]
+}

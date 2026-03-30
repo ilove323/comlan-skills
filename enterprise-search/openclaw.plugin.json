@@ -1,0 +1,7 @@
+{
+  "id": "enterprise-search",
+  "name": "企业搜索",
+  "version": "1.2.0",
+  "description": "跨企业平台的搜索、摘要和知识合成。",
+  "skills": ["skills"]
+}

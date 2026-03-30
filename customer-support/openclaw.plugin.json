@@ -1,0 +1,7 @@
+{
+  "id": "customer-support",
+  "name": "客户支持",
+  "version": "1.2.0",
+  "description": "处理工单、起草回复、升级问题、建立知识库。",
+  "skills": ["skills"]
+}

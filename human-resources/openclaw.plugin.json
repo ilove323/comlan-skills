@@ -1,0 +1,7 @@
+{
+  "id": "human-resources",
+  "name": "人力资源",
+  "version": "1.2.0",
+  "description": "招聘、入职、薪酬分析和人员管理工作流。",
+  "skills": ["skills"]
+}

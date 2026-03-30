@@ -1,0 +1,42 @@
+---
+# 品牌声音插件设置
+# 将此文件复制到 .claude/brand-voice.local.md 并填入您的值。
+# 必填字段：company_name。所有其他字段均为可选，有合理的默认值。
+company_name: ""          # 必填
+platforms:
+  notion: true
+  confluence: false
+  google-drive: false
+  box: false
+  microsoft-365: false
+  figma: false
+  gong: false
+  granola: false
+  slack: false
+discovery:
+  search-depth: standard    # standard | deep
+  max-sources: 15
+enforcement:
+  strictness: balanced      # strict | balanced | flexible
+  always-explain: true
+open-questions:
+  share-with-team: false
+---
+# 品牌背景
+
+## 公司名称
+[您的公司]
+
+## 已知品牌素材
+- Notion：[品牌工作区或页面的 URL]
+- Confluence 工作区：[工作区名称或 URL]
+- Google Drive 文件夹：[URL]
+- Box 文件夹：[URL]
+- SharePoint 站点：[URL]
+- Figma 品牌套件：[URL]
+- Gong 通话库：[过滤条件或标签名称]
+- Granola 会议：[搜索查询或标签名称]
+- Slack 频道：[#brand、#marketing 或其他相关频道]
+
+## 补充背景
+[关于您的品牌，插件应了解的任何其他背景 — 目标受众、行业、竞争格局、近期品牌变化等]

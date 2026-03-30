@@ -1,0 +1,7 @@
+{
+  "id": "data",
+  "name": "数据分析",
+  "version": "1.2.0",
+  "description": "从SQL查询到交互式仪表板的数据分析、可视化和探索工作流。",
+  "skills": ["skills"]
+}

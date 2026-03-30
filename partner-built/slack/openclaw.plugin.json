@@ -1,0 +1,7 @@
+{
+  "id": "slack",
+  "name": "Slack 集成",
+  "version": "1.0.0",
+  "description": "Slack 频道搜索、消息阅读和内容创作。",
+  "skills": ["skills", "commands"]
+}

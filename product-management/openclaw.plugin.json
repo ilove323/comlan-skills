@@ -1,0 +1,7 @@
+{
+  "id": "product-management",
+  "name": "产品管理",
+  "version": "1.2.0",
+  "description": "写功能规格、规划路线图，合成用户研究。保持干系人信息同步，把握竞争态势。",
+  "skills": ["skills", "commands"]
+}

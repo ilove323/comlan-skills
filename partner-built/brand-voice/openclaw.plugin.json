@@ -1,0 +1,7 @@
+{
+  "id": "brand-voice",
+  "name": "品牌声音",
+  "version": "1.0.0",
+  "description": "在企业平台中发现品牌素材，生成LLM可用的品牌指南，并在AI内容中执行品牌声音。",
+  "skills": ["skills", "commands", "agents"]
+}

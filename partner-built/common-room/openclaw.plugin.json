@@ -1,0 +1,7 @@
+{
+  "id": "common-room",
+  "name": "Common Room",
+  "version": "1.0.0",
+  "description": "使用 Common Room 进行账户研究、通话准备和潜在客户管理。",
+  "skills": ["skills", "commands"]
+}
