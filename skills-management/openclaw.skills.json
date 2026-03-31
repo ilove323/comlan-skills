@@ -1,0 +1,7 @@
+{
+  "id": "skills-management",
+  "name": "技能管理",
+  "version": "1.2.0",
+  "description": "创建和自定义 OpenClaw skills的指南。",
+  "skills": ["skills"]
+}

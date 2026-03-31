@@ -1,16 +1,16 @@
 ---
-name: cowork-plugin-customizer
+name: skills-customizer
 description: >
   为特定组织的工具和工作流定制OpenClaw插件。
   触发词：自定义插件、插件配置、plugin customizer
-compatibility: 需要OpenClaw桌面应用环境，并能访问挂载的插件目录（mnt/.local-plugins, mnt/.plugins）。
+compatibility: 需要OpenClaw，并能访问挂载的插件目录（~/.openclaw/skills）。
 ---
 
 # OpenClaw 插件定制
 
 为特定组织定制插件——既可以首次设置通用插件模板，也可以对已配置的插件进行调整和优化。
 
-> **查找插件**：要查找插件的源文件，运行 `find mnt/.local-plugins mnt/.plugins -type d -name "*<plugin-name>*"` 定位插件目录，然后读取其文件以了解结构，再进行更改。如果找不到插件目录，用户可能正在远程容器中运行此对话。中止操作并告知用户："插件定制目前仅在桌面应用的OpenClaw模式下可用。"
+> **查找插件**：要查找插件的源文件，运行 `find ~/.openclaw/skills -type d -name "*<plugin-name>*"` 定位插件目录，然后读取其文件以了解结构，再进行更改。如果找不到插件目录，用户可能正在远程容器中运行此对话。中止操作并告知用户："插件定制目前仅在桌面应用的OpenClaw模式下可用。"
 
 ## 确定定制模式
 
@@ -98,7 +98,7 @@ compatibility: 需要OpenClaw桌面应用环境，并能访问挂载的插件目
 
 1. 搜索注册表：`search_mcp_registry(keywords=[...])` 使用来自 `references/mcp-servers.md` 的类别关键词，若工具名称已知则直接搜索
 2. 若未连接：`suggest_connectors(directoryUuids=["chosen-uuid"])` — 用户完成身份验证
-3. 更新插件的MCP配置文件（检查 `plugin.json` 中的自定义位置，否则使用根目录的 `.mcp.json`）
+3. 更新插件的MCP配置文件（检查 `openclaw.plugin.json` 中的自定义位置，否则使用根目录的 `.mcp.json`）
 
 收集所有MCP结果，并在摘要输出中一并呈现（见下方）——不要在此阶段逐一呈现MCP。
 
@@ -128,7 +128,7 @@ compatibility: 需要OpenClaw桌面应用环境，并能访问挂载的插件目
 
 ## 来自文档搜索
 
-- 故事点使用T恤尺码
+- 你们的Asana项目ID是123456789
 
 ## 来自你的回答
 

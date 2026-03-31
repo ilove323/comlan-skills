@@ -177,7 +177,7 @@ Present findings grouped by severity (Critical, Warning, Info) with:
 ```json
 {
   "type": "command",
-  "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/scripts/validate.sh",
+  "command": "bash {baseDir}/hooks/scripts/validate.sh",
   "timeout": 60
 }
 ```
@@ -204,7 +204,7 @@ Present findings grouped by severity (Critical, Warning, Info) with:
       "hooks": [
         {
           "type": "command",
-          "command": "cat ${CLAUDE_PLUGIN_ROOT}/context/project-context.md",
+          "command": "cat {baseDir}/context/project-context.md",
           "timeout": 10
         }
       ]
@@ -240,7 +240,7 @@ Present findings grouped by severity (Critical, Warning, Info) with:
   "mcpServers": {
     "my-server": {
       "command": "node",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/servers/server.js"],
+      "args": ["{baseDir}/servers/server.js"],
       "env": {
         "API_KEY": "${API_KEY}"
       }
@@ -282,7 +282,7 @@ Present findings grouped by severity (Critical, Warning, Info) with:
 
 所有MCP配置支持 `${VAR_NAME}` 替换：
 
-- `${CLAUDE_PLUGIN_ROOT}` — 插件目录（为保证可移植性始终使用此变量）
+- `{baseDir}` — 插件目录（为保证可移植性始终使用此变量）
 - `${ANY_ENV_VAR}` — 用户环境变量
 
 在插件README中记录所有必需的环境变量。
@@ -332,7 +332,7 @@ Provide specific line numbers, severity ratings, and remediation suggestions.
 - `$ARGUMENTS` 将所有参数捕获为单个字符串；`$1`、`$2`、`$3` 捕获位置参数。
 - `@path` 语法将文件内容包含在命令上下文中。
 - `` ! `` 反引号语法内联执行bash以获取动态上下文（例如 `` !`git diff --name-only` ``）。
-- 使用 `${CLAUDE_PLUGIN_ROOT}` 可移植地引用插件文件。
+- 使用 `{baseDir}` 可移植地引用插件文件。
 
 ### allowed-tools 模式
 
@@ -383,7 +383,7 @@ Check ~~project tracker for open tickets assigned to the user.
 Post a summary to ~~chat in the team channel.
 ```
 
-定制过程中（通过 cowork-plugin-customizer 技能），这些占位符会被替换为具体工具名称。
+定制过程中（通过 skills-customizer 技能），这些占位符会被替换为具体工具名称。
 
 ## README.md
 
