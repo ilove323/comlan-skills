@@ -54,7 +54,7 @@
 
 ```bash
 # 安装插件
-/install anthropics/knowledge-work-plugins bio-research
+openclaw skills install bio-research
 
 # 运行开始命令查看可用工具
 /start

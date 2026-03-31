@@ -90,7 +90,7 @@ Apollo MCP 服务器支持 **OAuth** 认证：
 ## 致谢
 
 - **MCP 服务器** 由 [Apollo.io](https://docs.apollo.io/) 提供
-- **插件规范** 由 [Anthropic](https://docs.anthropic.com/) 提供
+- **插件规范** 由插件作者提供
 
 ---
 
